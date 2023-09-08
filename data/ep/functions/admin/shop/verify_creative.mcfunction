@@ -1,0 +1,2 @@
+execute if entity @s[gamemode=!creative] run tellraw @s [{"text": "You need to be in creative to set up admin shops.","color":"dark_red"}]
+execute if entity @s[gamemode=creative] run function ep:admin/shop/0
