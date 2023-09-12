@@ -1,5 +1,17 @@
 # EconomyPlus
-The new light version of economyplus
+### The new light version of economyplus
 
+---
 ## Features
-Player based shops and commerce
+### ☑ Brickmasons Core Integration
+### ☐ Admin Shops
+### ☐ Player Shops
+### ☐ Settings Menus
+
+---
+## Plugins
+### ☐ Travel
+### ☐ Loot
+### ☐ Auction
+### ☐ Bounty
+---
