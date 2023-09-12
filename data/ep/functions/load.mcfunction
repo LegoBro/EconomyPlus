@@ -21,6 +21,7 @@ scoreboard objectives add ep.shop.id dummy
 
 # Playerbased numpad
 scoreboard objectives add ep.numpad dummy
+scoreboard objectives add ep.value dummy
 
 ## Settings
 
@@ -30,7 +31,8 @@ execute unless score #startMoney ep.setting matches 0.. run scoreboard players s
 # Icon, displays as the character next to money amounts
 data modify storage ep icon set value "$"
 
-
+## CONSTANTS
+scoreboard players set #10 bm.CONSTANT 10
 
 # Link to other installed packs
 function #ep:load

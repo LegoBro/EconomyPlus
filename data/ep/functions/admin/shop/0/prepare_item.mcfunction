@@ -3,7 +3,7 @@
 tag @s add ep.fresh_spawn
 tag @s add ep.admin_shop_prepare
 tag @s add ep.admin_shop_prepare.item
-tp @s ~ ~ ~ ~ ~
+tp @s ~ ~ ~ ~180 ~
 data merge entity @s {brightness:{sky:15,block:15},transformation:{translation:[-0f,0f,-0f],scale:[0.25f,0.25f,0.25f]}}
 
 # Copy the shop's id

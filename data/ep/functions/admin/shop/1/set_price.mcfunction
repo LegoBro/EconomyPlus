@@ -1,7 +1,5 @@
-## Sets the price according to it's own value
-## If value is 0, buy is disabled
-
-## Ran as the interaction entity with tag ep.admin_shop_prepare.set_price
+## Sets the item according to the executor's hand (can fail)
+## Ran as the interaction entity with tag ep.admin_shop_prepare.set_item
 
 scoreboard players operation #shop_id bm.variable = @s ep.shop.id
 execute rotated as @s positioned ^ ^1 ^0.5 summon item_display run function ep:admin/shop/0/prepare_item

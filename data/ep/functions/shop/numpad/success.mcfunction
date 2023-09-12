@@ -1,0 +1,1 @@
+playsound minecraft:block.stone_button.click_on master @a ~ ~ ~ 1 2
